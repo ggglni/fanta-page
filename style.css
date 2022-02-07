@@ -53,6 +53,14 @@
     color: grey;
   }
 
+  #highlights h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(17, 148, 17);
+  }
+
   #premi {
     display: flex;
     width: 90%;
@@ -77,6 +85,7 @@
   .premio p{
    font-size: 20px;
    font-weight: bold;
+   font-
   }
 
   .premio a{
@@ -84,7 +93,9 @@
     color:rgb(0, 179, 0);
   }
 
-  .premio a:hover{
+  .premio a:hover, a:active{
     text-decoration: none;
-    color:rgb(0, 179, 0);
+    color:rgb(13, 115, 122);
   }
+
+
