@@ -1,0 +1,28 @@
+header{
+    position: static;
+    background: linear-gradient(45deg, beige, rgb(241, 241, 151));
+    padding: 10px;
+}
+
+
+main{
+    background-color: rgb(94, 92, 77);
+    padding: 30px;
+    position: static;
+}
+
+
+#lista-allenatori ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.allenatore {
+    margin: 10px 50px;
+    width: 400px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+

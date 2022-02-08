@@ -10,7 +10,6 @@ ul {
 }
 
 #container {
-    background-color: rgb(6, 172, 75, 0);
     padding: 10px;
     width: 100%;
     display: flex;
