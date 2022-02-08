@@ -53,6 +53,13 @@
     color: grey;
   }
 
+#highlights {
+  padding: 5px;
+  background-color: beige;
+  background: linear-gradient(45deg, beige, rgb(241, 241, 151));
+}
+
+
   #highlights h2{
     text-transform: uppercase;
     text-align: center;
@@ -80,6 +87,7 @@
     border: 5px solid green;
     box-shadow: 3px 3px rgb(136, 185, 136);
     object-fit: contain;
+    background-color: white
   }
 
   .premio p{
@@ -96,6 +104,28 @@
   .premio a:hover, a:active{
     text-decoration: none;
     color:rgb(13, 115, 122);
+  }
+
+  footer {
+    background: linear-gradient(45deg, beige, rgb(241, 241, 151));
+    padding: 10px;
+  }
+
+  footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer li {
+    margin: 10px 50px;
+  }
+
+  footer img {
+    width: 50px;
+    object-fit:contain; 
+    border-radius: 10px;
   }
 
 
