@@ -9,6 +9,18 @@ ul {
     padding: 0px;
 }
 
+#container {
+    background-color: rgb(6, 172, 75, 0);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+
 header{
     display: flex;
     justify-content: space-between;
