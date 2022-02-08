@@ -106,26 +106,4 @@
     color:rgb(13, 115, 122);
   }
 
-  footer {
-    background: linear-gradient(45deg, beige, rgb(241, 241, 151));
-    padding: 10px;
-  }
-
-  footer ul{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  footer li {
-    margin: 10px 50px;
-  }
-
-  footer img {
-    width: 50px;
-    object-fit:contain; 
-    border-radius: 10px;
-  }
-
 
