@@ -28,7 +28,7 @@ main li {
 .allenatore {
     margin: 10px 50px;
     width: 500px;
-    border: 2px solid white;
+    border: 4px solid rgb(185, 181, 181);
     border-radius: 10px;
     background-color: white;
 }
@@ -36,10 +36,10 @@ main li {
 main li img {
     width: 120px;
     object-fit: cover;
-    border-right: 2px solid white;
+    border-right: 4px solid rgb(185, 181, 181);
     padding: 0px 5px;
-    background-color: black;
-    border-radius: 10px;
+    background-color: rgb(185, 181, 181);
+    border-radius: 3px;
 }
 
 main li h2{

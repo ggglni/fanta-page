@@ -4,6 +4,11 @@ header{
     padding: 10px;
 }
 
+h2 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
 
 main{
     background-color: rgb(210, 240, 176);
@@ -14,9 +19,14 @@ main{
 #lista-stagioni ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
+    row-gap: 20px;
 }
 
 #lista-stagioni li {
-    border: 2px solid black;
+    text-align: center;
+    border: 2px solid grey;
+}
+
+.titolo {
+    font-weight: bold;
 }
