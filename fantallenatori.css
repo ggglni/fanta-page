@@ -8,21 +8,56 @@ header{
 main{
     background-color: rgb(94, 92, 77);
     padding: 30px;
-    position: static;
+    /* position: static; */
 }
 
 
-#lista-allenatori ul{
+main ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+ 
+
+main li {
+    display: flex;
+    flex-direction: row;
+}
 
 .allenatore {
     margin: 10px 50px;
-    width: 400px;
+    width: 500px;
     height: 200px;
     border: 2px solid white;
     border-radius: 10px;
+    background-color: white;
 }
+
+main li img {
+    width: 120px;
+    object-fit: cover;
+    border-right: 2px solid white;
+    padding: 0px 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+main li h2{
+    margin: 5px 0px 5px 10px;
+    font-weight: bold;
+}
+
+main li h3{
+    margin: 5px 0px 5px 10px;
+    font-style: italic;
+}
+
+main li div{
+    margin: 10px 10px 5px 10px;
+    
+}
+
+
+
+
 
