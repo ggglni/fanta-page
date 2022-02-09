@@ -58,13 +58,14 @@ header a{
 
 header a:hover{
     text-decoration: none;
-    color: rgb(136, 214, 11, 0.7);
+    color: rgba(214, 11, 170, 0.7);
+    font-weight: bold;
     font-size: 20px;
 }
 
 
 footer {
-    background: linear-gradient(45deg, beige, rgb(241, 241, 151));
+    background: rgb(125, 207, 99);
     padding: 10px;
   }
 

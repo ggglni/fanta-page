@@ -1,12 +1,12 @@
 header{
     position: static;
-    background: linear-gradient(45deg, beige, rgb(241, 241, 151));
+    background: rgb(125, 207, 99);
     padding: 10px;
 }
 
 
 main{
-    background-color: rgb(94, 92, 77);
+    background-color: rgb(210, 240, 176);
     padding: 30px;
     /* position: static; */
 }
