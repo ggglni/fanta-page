@@ -22,12 +22,12 @@ main ul{
 main li {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .allenatore {
     margin: 10px 50px;
     width: 500px;
-    height: 200px;
     border: 2px solid white;
     border-radius: 10px;
     background-color: white;
