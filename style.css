@@ -62,7 +62,8 @@
     display: flex;
     width: 90%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .premio{
@@ -71,12 +72,12 @@
   }
 
   .premio img{
-    width: 100%;
+    width: 200px;
     height: 200px;
     border-radius: 10px;
     border: 5px solid green;
     box-shadow: 3px 3px rgb(136, 185, 136);
-    object-fit: contain;
+    object-fit: cover;
     background-color: white
   }
 
