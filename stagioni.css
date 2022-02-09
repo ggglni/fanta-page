@@ -1,0 +1,22 @@
+header{
+    position: static;
+    background: linear-gradient(45deg, beige, rgb(241, 241, 151));
+    padding: 10px;
+}
+
+
+main{
+    background-color: rgb(94, 92, 77);
+    padding: 30px;
+    /* position: static; */
+}
+
+#lista-stagioni ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+
+#lista-stagioni li {
+    border: 2px solid black;
+}
