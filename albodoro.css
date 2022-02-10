@@ -1,0 +1,40 @@
+header{
+    position: static;
+    background: rgb(125, 207, 99);
+    padding: 10px;
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+main{
+    background-color: rgb(210, 240, 176);
+    padding: 30px;
+    /* position: static; */
+}
+
+#lista-stagioni ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 0px;
+}
+
+#lista-stagioni li{
+    text-align: center;
+    border: 1px dotted rgb(65, 119, 65);
+    padding: 10px 10px;
+}
+
+.titolo {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px;
+}
+
+.anno{
+    font-weight: bold;
+    align-content: center;
+}
