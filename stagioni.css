@@ -19,14 +19,21 @@ main{
 #lista-stagioni ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 20px;
+    row-gap: 0px;
 }
 
-#lista-stagioni li {
+#lista-stagioni li{
     text-align: center;
-    border: 2px solid grey;
+    border: 1px dotted rgb(65, 119, 65);
 }
 
 .titolo {
     font-weight: bold;
+    font-size: 20px;
+    padding: 6px;
+}
+
+.anno{
+    font-weight: bold;
+    align-content: center;
 }
