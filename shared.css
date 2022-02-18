@@ -32,11 +32,28 @@ header{
     padding: 10px;
     font-family: "Oleo Script", sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-decoration: none;
     text-transform: lowercase;
     text-shadow: 1px 1px 2px black;
 }
+
+/* Hamburger menu */
+.menu-button{
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.menu-button span{
+  width: 100%;
+  height: 2.5px;
+  background-color: white;
+}
+
 
 header ul {
     display: flex;
@@ -85,5 +102,76 @@ footer {
     object-fit:contain; 
     border-radius: 10px;
   }
+
+/*side-drawer style starts here */
+
+#side-drawer{
+  width:100%;
+  height: 100%;
+  background: rgb(6, 37, 141);
+  position: fixed;
+  top: 0px;
+  display: none;
+}
+
+#side-drawer:target {
+  display: block;
+  left: 0px;
+}
+
+#side-drawer header{
+  position: static;
+  background: rgb(6, 37, 141);
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#side-drawer ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 4rem 1rem;
+}
+
+#side-drawer ul li a{
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 10px;
+  color: white;
+  margin: 3rem 1rem;
+    
+}
+
+#side-drawer ul li a:hover{
+  text-decoration: none;
+  color: rgba(214, 11, 170, 0.7);
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+/* side-drawer ends here */
+
+  @media (max-width:768px){
+    header ul {
+      display: none;
+      }
+
+      #logo a{
+        font-size: 2rem;
+    }
+  }
+
+  @media (min-width:768px){  /*burger and side-drawer not shown after 48rem */
+      .menu-button{
+          display: none;
+      }
+    } 
+  
 
 

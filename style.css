@@ -9,13 +9,13 @@
   }
 
   #hero-content {
-      width: 70%;
+      width: 60%;
       background-color: rgb(136, 214, 11, 0.7);
       box-shadow: 2px 2px 8px rgb(0, 179, 0);
       text-align: center;
       padding: 2rem 0px;
       margin: 0px auto;
-      position: relative;
+      position: absolute;
       top: 12rem;
       border-radius: 10px;
 
