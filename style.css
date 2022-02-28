@@ -1,7 +1,7 @@
 
 
   #hero {
-    height: 800px;
+    height: 34rem;
     background-image: url("/images/other/background-picture.jpeg");
     background-position: center;
     background-size: cover;
@@ -9,16 +9,18 @@
   }
 
   #hero-content {
-      width: 60%;
-      background-color: rgb(136, 214, 11, 0.7);
-      box-shadow: 2px 2px 8px rgb(0, 179, 0);
-      text-align: center;
-      padding: 2rem 0px;
-      margin: 0px auto;
-      position: absolute;
-      top: 12rem;
-      border-radius: 10px;
+    display: flex;
+  }
 
+  #blocco {
+    display: block;
+    width: 60%;
+    background-color: rgb(136, 214, 11, 0.7);
+    box-shadow: 2px 2px 8px rgb(0, 179, 0);
+    text-align: center;
+    margin: 12rem auto;
+    padding: 2rem 1rem;
+    border-radius: 10px;
   }
 
   #hero-content h1{
