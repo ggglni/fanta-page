@@ -111,6 +111,39 @@ button{
     color:rgb(13, 115, 122);
   }
 
+  #market {
+    padding: 5px;
+    background-color: rgb(223, 217, 217);
+    text-align: center;
+  }
+  
+  
+  #market h2{
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      color: rgb(43, 28, 179);
+    }
+
+  #market button {
+    background-color: rgb(111, 112, 134);
+    width: 12rem;
+    padding: 5px 20px;
+    border: 1px solid rgb(36, 6, 172);
+    border-radius: 3px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1.5rem auto;
+  }
+
+  #market button a{
+      text-decoration: none;
+      color: white;
+    }
+  
+
 @media (max-width: 768px){
   #hero-content h1 {
     font-size: 1.5rem;
