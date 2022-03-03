@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Iscriviti</h1>
+    <section>
+        <h2>Inserisci i tuoi dati</h2>
+        <form action="/" method="POST">
+            <div class="campo">
+                <label for="nome">Nome e Cognome:</label>
+                <input type="text" name="user-name" id="nome" placeholder="Manuel Pucciarelli" required> 
+            </div>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" name="user-email" id="email" placeholder="ciucciarelli@gmail.com" required> 
+            </div>
+            <div class="campo">
+                <label for="telefono">Numero di telefono:</label>
+                <input type="text" name="user-phone" id="telefono" placeholder="345-6789012" required> 
+            </div>
+            <div class="campo">
+                <label for="data-nascita">Data di nascita:</label>
+                <input type="date" name="user-birth" id="data-nascita" min="1950-01-01" required> 
+            </div>
+            <div class="campo">
+                <label for="motivo">Perche' vuoi iscriverti?</label>
+                <textarea name="user-reason" id="motivo" placeholder="Per poter insultare quotidianamente Marco Battista" required></textarea>
+            </div>
+            <div class="campo">
+                <label for="canale">Come ci hai trovato?</label>
+                <select id="canale" name="acquisition-channel">
+                    <option>Passaparola</option>
+                    <option>Instagram</option>
+                    <option>Gruppo padel</option>
+                </select>
+            </div>
+
+            <h2>Come possiamo contattarti?</h2>
+            <div class="campo">
+                <label for="contatto-telefono">Telefono</label>
+                <input type="radio" name="contact" id="contatto-telefono" value="contatto-telefono" required>
+            </div>
+            <div class="campo">
+                <label for="contatto-wa">Whatsapp</label>
+                <input type="radio" name="contact" id="contatto-wa" value="contatto-wa"required>
+            </div>
+            <div class="campo">
+                <label for="contatto-email">E-mail</label>
+                <input type="radio" name="contact" id="contatto-email" value="contatto-email" equired>
+            </div>
+            <div class="campo">
+                <input type="checkbox" name="agree-terms" id="terms">
+                <label for="terms">Accetto T&C</label>
+            </div>
+            <div id="bottoni">
+                <button type="reset">Reset</button>
+                <button type="button">Invia</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
