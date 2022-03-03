@@ -31,14 +31,14 @@
   }
 
 
-  #hero-content button{
-    background-color: rgb(172, 39, 6);
-    width: 9rem;
+#hero-content button{
+    background-color: rgb(51, 59, 173);
+    width: 12rem;
     padding: 5px 20px;
-    border: 1px solid rgb(172, 81, 6);
+    border: 1px solid rgb(36, 6, 172);
     border-radius: 3px;
-    color: black;
-    font-size: 1rem;
+    color: white;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -135,9 +135,5 @@ button{
   #bottoni button{
     margin-top: 10px;
   }
-
-
-
-
 
 }
