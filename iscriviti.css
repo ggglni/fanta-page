@@ -53,6 +53,7 @@ button{
     font-size: 1.1rem;
     padding: 0.5rem;
     margin: 0.5rem 1rem 0rem 1rem;
+    text-align: center;
 
 }
 
@@ -83,4 +84,27 @@ button{
 #back a{
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 1.8rem;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+
+    form{
+        width: 85%;
+    }
+
+    button{
+        width:30%;
+        font-size: 1rem;
+    }
+
+    #back a {
+      font-size: 1rem;
+    }
 }
