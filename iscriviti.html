@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/iscriviti.css">
+
+    <title>Iscrizioni</title>
 </head>
 <body>
-    <h1>Iscriviti</h1>
-    <section>
+    <h1>Vuoi iscriverti?</h1>
+    <section id="form">
         <h2>Inserisci i tuoi dati</h2>
         <form action="/" method="POST">
             <div class="campo">
@@ -41,26 +49,31 @@
             </div>
 
             <h2>Come possiamo contattarti?</h2>
-            <div class="campo">
-                <label for="contatto-telefono">Telefono</label>
-                <input type="radio" name="contact" id="contatto-telefono" value="contatto-telefono" required>
-            </div>
-            <div class="campo">
-                <label for="contatto-wa">Whatsapp</label>
-                <input type="radio" name="contact" id="contatto-wa" value="contatto-wa"required>
-            </div>
-            <div class="campo">
-                <label for="contatto-email">E-mail</label>
-                <input type="radio" name="contact" id="contatto-email" value="contatto-email" equired>
-            </div>
-            <div class="campo">
-                <input type="checkbox" name="agree-terms" id="terms">
-                <label for="terms">Accetto T&C</label>
-            </div>
+            <section id="contatto">
+                <div> 
+                    <input type="radio" name="contact" id="contatto-telefono" value="contatto-telefono" required>
+                    <label for="contatto-telefono">Telefono</label>
+                </div>
+                <div>    
+                    <input type="radio" name="contact" id="contatto-wa" value="contatto-wa"required>
+                    <label for="contatto-wa">Whatsapp</label>
+                </div>
+                <div>  
+                    <input type="radio" name="contact" id="contatto-email" value="contatto-email" equired>
+                    <label for="contatto-email">E-mail</label>
+                </div>
+                <div id="T-C">
+                    <input type="checkbox" name="agree-terms" id="terms">
+                    <label for="terms">Accetto T&C</label>
+                 </div>
+            </section>
+
+
             <div id="bottoni">
                 <button type="reset">Reset</button>
                 <button type="button">Invia</button>
             </div>
+
         </form>
     </section>
 </body>
